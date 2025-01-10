@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Udupi-Homestay/static/css/main.9c43183a.css",
-    "main.js": "/Udupi-Homestay/static/js/main.0f79252e.js",
+    "main.js": "/Udupi-Homestay/static/js/main.4a3a63c5.js",
     "static/js/787.884f7618.chunk.js": "/Udupi-Homestay/static/js/787.884f7618.chunk.js",
     "static/media/Caterings.webp": "/Udupi-Homestay/static/media/Caterings.4c4a78bdf051e6c40bff.webp",
     "static/media/Viewpoint.webp": "/Udupi-Homestay/static/media/Viewpoint.77a2192cb1bf0f0347c9.webp",
@@ -104,11 +104,11 @@
     "static/media/slick.woff": "/Udupi-Homestay/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Udupi-Homestay/index.html",
     "main.9c43183a.css.map": "/Udupi-Homestay/static/css/main.9c43183a.css.map",
-    "main.0f79252e.js.map": "/Udupi-Homestay/static/js/main.0f79252e.js.map",
+    "main.4a3a63c5.js.map": "/Udupi-Homestay/static/js/main.4a3a63c5.js.map",
     "787.884f7618.chunk.js.map": "/Udupi-Homestay/static/js/787.884f7618.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c43183a.css",
-    "static/js/main.0f79252e.js"
+    "static/js/main.4a3a63c5.js"
   ]
 }
