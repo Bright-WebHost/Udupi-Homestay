@@ -25,7 +25,7 @@ const HomePage4 =() => {
            
             <Hero4/>
            
-            <Booking/>
+            {/* <Booking/> */}
             <About4/>
             <BlogSection/>
                  {/* <BlogSectionS2/> */}
