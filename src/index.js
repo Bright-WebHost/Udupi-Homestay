@@ -11,12 +11,14 @@ import './sass/style.scss';
 import { PersistGate } from "redux-persist/integration/react";
 import { store, persistor } from "./store/index";
 import { Provider } from "react-redux";
+import Whatsapp from './components/Whatsapp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
             <App />
+            <Whatsapp/>
         </PersistGate>
     </Provider>
 );

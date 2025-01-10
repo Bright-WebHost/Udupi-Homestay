@@ -16,13 +16,14 @@ import abimg from '../../images/about.jpg'
 import BookingForm from '../../components/BookingForm';
 import Booking from '../../components/Booking';
 import Arrow from '../../components/Arrow';
+import Whatsapp from '../../components/Whatsapp';
 
 
 const HomePage4 =() => {
     return(
         <Fragment>
             <Navbar2 Logo={Logo} hclass={'wpo-header-style-3'}/>
-           
+           {/* <Whatsapp/> */}
             <Hero4/>
            
             {/* <Booking/> */}
