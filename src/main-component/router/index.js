@@ -46,7 +46,7 @@ const AllRoute = () => {
 
   return (
     <div className="App">
-      <BrowserRouter basename='/Udupi-Homestay'>
+      <BrowserRouter basename='/'>
         <Routes >
           <Route exact path='/home4' element={<Homepage/>} />
           <Route path='home' element={<Homepage/>} />

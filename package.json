@@ -1,7 +1,7 @@
 {
   "name": "arkio-react",
   "version": "0.1.0",
-  "homepage": "https://Bright-WebHost.github.io/Udupi-Homestay",
+  "homepage": "https://udupistay.com",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
