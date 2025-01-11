@@ -17,6 +17,7 @@ import BookingForm from '../../components/BookingForm';
 import Booking from '../../components/Booking';
 import Arrow from '../../components/Arrow';
 import Whatsapp from '../../components/Whatsapp';
+import BannerPage from '../../components/BannerPage';
 
 
 const HomePage4 =() => {
@@ -25,7 +26,13 @@ const HomePage4 =() => {
             <Navbar2 Logo={Logo} hclass={'wpo-header-style-3'}/>
            {/* <Whatsapp/> */}
             <Hero4/>
-           
+
+
+           {/* book */}
+        
+           {/* book */}
+
+
             {/* <Booking/> */}
             <About4/>
             <BlogSection/>
@@ -35,6 +42,7 @@ const HomePage4 =() => {
             {/* <ProjectSectionS4/> */}
             {/* <Pricing pClass={'wpo-pricing-section-s2'}/> */}
             <About abimg={abimg}/>
+            <BannerPage/>
             {/* <BlogSectionS2/> */}
             <Footer ftClass={'wpo-site-footer-s2'}/>
             <Scrollbar/>

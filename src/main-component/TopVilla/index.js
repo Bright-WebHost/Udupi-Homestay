@@ -33,6 +33,7 @@ import TopVillaImg from '../../components/TopVillaImg';
 import img1 from '../../images/allimg/HomeSlider/hilltop.webp'
 import top from '../../images/allimg/top/Hilltop.webp'
 import { makeStyles } from "@material-ui/core";
+import BannerPage from '../../components/BannerPage';
 
 const useStyles = makeStyles((theme) => ({
     sticker: {
@@ -191,7 +192,8 @@ const TopVilla =() => {
                                             </div>
                                         </div>
                                     </div> */}
-                                    <div >
+                                    <div  style={{marginBottom:'20px'}}>
+                                    <BannerPage/>
                                     {/* <TopVillaBook/> */}
                                     </div>
                                     {/* <div className="wpo-project-single-item">

@@ -31,6 +31,7 @@ import green from '../../images/allimg/HomeSlider/green.webp'
 import img1 from '../../images/allimg/HomeSlider/green.webp'
 import { makeStyles } from "@material-ui/core";
 import GardenVillaVideo from '../../components/GardenVillaVideo';
+import BannerPage from '../../components/BannerPage';
 
 
 
@@ -198,8 +199,9 @@ const GardenVilla =() => {
                                             </div>
                                         </div>
                                     </div> */}
-                                    <div >
+                                    <div style={{marginBottom:'20px'}}>
                                     {/* <GardenVillabook/> */}
+                                    <BannerPage />
                                     </div>
                                     {/* <div className="wpo-project-single-item">
                                         <div className="wpo-project-single-title">

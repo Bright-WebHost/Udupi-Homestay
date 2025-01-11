@@ -33,6 +33,7 @@ import Kitchen from '../../images/icons/Kitchen.png'
 import i24 from '../../images/icons/i24.png'
 import Viewtop from '../../images/allimg/top/Viewtop.webp'
 import { makeStyles } from "@material-ui/core";
+import BannerPage from '../../components/BannerPage';
 const useStyles = makeStyles((theme) => ({
     sticker: {
       position: "absolute",
@@ -191,7 +192,8 @@ const ViewPoint  =() => {
                                         </div>
                                     </div> */}
                                     
-                                    <div >
+                                    <div style={{marginBottom:'20px'}}>
+                                    <BannerPage/>
                                     {/* <ViewPointBook/> */}
                                     </div>
                                    

@@ -11,9 +11,9 @@ const About4 = (props) => {
     }
     return (
 
-        <div className="wpo-about-area-s4 section-padding" style={{marginTop:'-65px'}}>
+        <div className="wpo-about-area-s4 section-padding" >
             <div className="container">
-                <div className="row align-items-center" style={{marginTop:'130px'}}>
+                <div className="row align-items-center" >
                     <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className="wpo-about-img">
                             <img src={abimg} alt="" />

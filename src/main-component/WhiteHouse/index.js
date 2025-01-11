@@ -35,6 +35,7 @@ import top from '../../images/allimg/top/whitetop.webp';
 import img1 from '../../images/allimg/HomeSlider/whiteHouse.webp'
 import { makeStyles } from "@material-ui/core";
 import WhiteHouseVideo from '../../components/WhiteHouseVideo';
+import BannerPage from '../../components/BannerPage';
 
 const useStyles = makeStyles((theme) => ({
     sticker: {
@@ -201,8 +202,9 @@ const WhiteHouse =() => {
 
 
                                     
-                                    <div >
+                                    <div style={{marginBottom:'20px'}}>
                                     {/* <WhiteVillabook/> */}
+                                    <BannerPage/>
                                     </div>
                                     {/* <div className="wpo-project-single-item">
                                         <div className="wpo-project-single-title">

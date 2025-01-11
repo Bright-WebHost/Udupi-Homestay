@@ -32,6 +32,7 @@ import img1 from '../../images/allimg/sunrise/1.webp';
 import Sunrisetop from '../../images/allimg/top/Sunrisetop.webp'
 
 import { makeStyles } from "@material-ui/core";
+import BannerPage from '../../components/BannerPage';
 
 const useStyles = makeStyles((theme) => ({
     sticker: {
@@ -189,7 +190,8 @@ const SunriseHome =() => {
                                             </div>
                                         </div>
                                     </div> */}
-                                    <div >
+                                    <div style={{marginBottom:'20px'}}>
+                                    <BannerPage/>
                                     {/* <SunriseHomebook/> */}
                                     </div>
 

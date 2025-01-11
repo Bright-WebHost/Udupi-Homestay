@@ -33,6 +33,7 @@ import Chalettop from '../../images/allimg/top/Chalettop.webp'
 
 
 import { makeStyles } from "@material-ui/core";
+import BannerPage from '../../components/BannerPage';
 
 const useStyles = makeStyles((theme) => ({
     sticker: {
@@ -262,8 +263,9 @@ const ChaletLabonne =() => {
                 </div>
             </div>
         </div> */}
-                                    <div >
+                                    <div style={{marginBottom:'20px'}}>
                                     {/* <ChaletBook/> */}
+                                    <BannerPage/>
                                     </div>
                                     {/* <div className="wpo-project-single-item">
                                         <div className="wpo-project-single-title">
