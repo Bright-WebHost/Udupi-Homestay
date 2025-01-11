@@ -145,7 +145,7 @@ const ViewPoint  =() => {
                                             <div className="wpo-project-single-content-des-right">
                                                 <ul>
                                                     <li>Property Type :<span>Chalet La Bonne Vie</span></li>
-                                                    <li>Capacity :<span>20+ Guests</span></li>
+                                                    {/* <li>Capacity :<span>20+ Guests</span></li> */}
                                                     {/* <li>Rooms :<span>6BHK with A/C</span></li> */}
                                                     <li>Location :<span> Udupi, Karnataka</span></li>
                                                     <li>Features :<span>Ideal for Friends and Family</span></li>

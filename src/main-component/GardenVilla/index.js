@@ -152,7 +152,7 @@ const GardenVilla =() => {
                                             <div className="wpo-project-single-content-des-right">
                                                 <ul>
                                                     <li>Property Type: <span>Garden House</span></li>
-                                                    <li>Capacity :<span>20 Guests</span></li>
+                                                    <li>Capacity :<span> 1 to 20 Guests</span></li>
                                                     <li>Rooms :<span>5BHK with A/C</span></li>
                                                     <li>Location :<span>Udupi, Karnataka</span></li>
                                                     <li>Features :<span> Ideal for families and Friends</span></li>

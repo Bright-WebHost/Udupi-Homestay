@@ -145,7 +145,7 @@ const ChaletLabonne =() => {
                                             <div className="wpo-project-single-content-des-right">
                                                 <ul>
                                                     <li>Property Type :<span>Chalet La Bonne Vie</span></li>
-                                                    <li>Capacity :<span>5 Guests</span></li>
+                                                    <li>Capacity :<span>1 to 5 Guests</span></li>
                                                     <li>Rooms :<span>2 BHK with A/C</span></li>
                                                     <li>Location:<span>Udupi, Karnataka</span></li>
                                                     <li>Features :<span>Ideal for Couples and Family</span></li>
