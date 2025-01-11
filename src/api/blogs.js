@@ -36,7 +36,7 @@ const getPriceForCurrentPeriod = (priceObj) => {
     {
       id: '/Whitehouse',
       title: 'WHITE HOUSE',
-      thumb: '35+ Capacity ',
+      thumb: '35 Capacity ',
       screens: white,
       description: 'Luxurious 6BHK Villa Near Malpe Beach',
       author: 'Udupi city center',
@@ -56,7 +56,7 @@ const getPriceForCurrentPeriod = (priceObj) => {
     {
       id: '/GardenVilla',
       title: 'GARDEN VILLA ',
-      thumb: '20+ Capacity ',
+      thumb: '20 Capacity ',
       screens: Garden,
       description: '5 BHK spacious bedrooms and fully furnished',
       author: 'Udupi city center',
@@ -76,7 +76,7 @@ const getPriceForCurrentPeriod = (priceObj) => {
     {
       id: '/CottageHouse',
       title: 'COTTAGE HOUSE',
-      thumb: '10+ Capacity ',
+      thumb: '10 Capacity ',
       screens: Cottage,
       description: 'Air-conditioned 3-BHK fully furnished villa',
       author: 'Near Udupi (7 km) & Manipal (15 km)',
@@ -96,7 +96,7 @@ const getPriceForCurrentPeriod = (priceObj) => {
     {
       id: '/TopVilla',
       title: 'HILL TOP VILLA',
-      thumb: '12+ Capacity  ',
+      thumb: '12 Capacity  ',
       screens: HillTop,
       description: '3-BHK Villa with Air Conditioning',
       author: 'Near Udupi (7 km) & Manipal (15 km)',
@@ -116,7 +116,7 @@ const getPriceForCurrentPeriod = (priceObj) => {
     {
       id: '/SunriseHome',
       title: 'SUNRISE HOME',
-      thumb: '8+ Capacity  ',
+      thumb: '8 Capacity  ',
       screens: Sunrise,
       description: '3-BHK Brick House ',
       author: 'Near Udupi (7 km) & Manipal (15 km)',
@@ -136,7 +136,7 @@ const getPriceForCurrentPeriod = (priceObj) => {
     {
       id: '/ChaletLabonne',
       title: 'CHALET LA BONNE VIE',
-      thumb: '5+ Capacity  ',
+      thumb: '5 Capacity  ',
       screens: Chalet,
       description: '2-BHK Modern house, Bird sanctuary and Farm.',
       author: 'Near Udupi (7 km) & Manipal (15 km)',
@@ -156,7 +156,7 @@ const getPriceForCurrentPeriod = (priceObj) => {
     {
       id: '/ViewPoint',
       title: 'VIEWPOINT OASIS',
-      thumb: '20+ Capacity  ',
+      thumb: '20 Capacity  ',
       screens: img1,
       description: 'Jacuzzi, View Point, BBQ Area ',
       author: 'Near Udupi (7 km) & Manipal (15 km)',
