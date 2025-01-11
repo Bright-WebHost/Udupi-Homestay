@@ -76,7 +76,7 @@ const getPriceForCurrentPeriod = (priceObj) => {
     {
       id: '/CottageHouse',
       title: 'COTTAGE HOUSE',
-      thumb: '10 Capacity ',
+      thumb: '8 Capacity ',
       screens: Cottage,
       description: 'Air-conditioned 3-BHK fully furnished villa',
       author: 'Near Udupi (7 km) & Manipal (15 km)',
@@ -96,7 +96,7 @@ const getPriceForCurrentPeriod = (priceObj) => {
     {
       id: '/TopVilla',
       title: 'HILL TOP VILLA',
-      thumb: '12 Capacity  ',
+      thumb: '10 Capacity  ',
       screens: HillTop,
       description: '3-BHK Villa with Air Conditioning',
       author: 'Near Udupi (7 km) & Manipal (15 km)',
@@ -116,7 +116,7 @@ const getPriceForCurrentPeriod = (priceObj) => {
     {
       id: '/SunriseHome',
       title: 'SUNRISE HOME',
-      thumb: '8 Capacity  ',
+      thumb: '6 Capacity  ',
       screens: Sunrise,
       description: '3-BHK Brick House ',
       author: 'Near Udupi (7 km) & Manipal (15 km)',
@@ -156,7 +156,7 @@ const getPriceForCurrentPeriod = (priceObj) => {
     {
       id: '/ViewPoint',
       title: 'VIEWPOINT OASIS',
-      thumb: '20 Capacity  ',
+      thumb: '',
       screens: img1,
       description: 'Jacuzzi, View Point, BBQ Area ',
       author: 'Near Udupi (7 km) & Manipal (15 km)',
