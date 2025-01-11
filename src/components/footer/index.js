@@ -40,6 +40,12 @@ const Footer = (props) =>{
                                         <i className="ti-youtube"></i>
                                     </a>
                                 </li>
+                                <li>
+    <a href="https://wa.me/+918971220576" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+</li>
+
                                 
                                 <li>
                                 <a href="mailto:fahad@udupistay.com" target='_blank'>
