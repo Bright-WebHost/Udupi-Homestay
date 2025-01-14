@@ -9,7 +9,7 @@ const WhiteVideo = (props) => {
     };
 
     return (
-        <section className="">
+        <section className="" style={{marginBottom:'80px'}}>
             <div className="container">
                 <div className="row">
                     <div className={`col col-lg-12 col-12`}>
