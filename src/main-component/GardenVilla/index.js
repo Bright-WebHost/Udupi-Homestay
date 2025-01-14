@@ -32,6 +32,7 @@ import img1 from '../../images/allimg/HomeSlider/green.webp'
 import { makeStyles } from "@material-ui/core";
 import GardenVillaVideo from '../../components/GardenVillaVideo';
 import BannerPage from '../../components/BannerPage';
+import GardenVillaVideos from '../../components/GardenVillaVideos';
 
 
 
@@ -260,7 +261,8 @@ const GardenVilla =() => {
                                     <Discuss/> */}
 
 
-<GardenVillaVideo/>
+{/* <GardenVillaVideo/> */}
+<GardenVillaVideos/>
 
                                 </div>
                             </div>

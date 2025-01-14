@@ -36,6 +36,7 @@ import img1 from '../../images/allimg/HomeSlider/whiteHouse.webp'
 import { makeStyles } from "@material-ui/core";
 import WhiteHouseVideo from '../../components/WhiteHouseVideo';
 import BannerPage from '../../components/BannerPage';
+import WhiteVideo from '../../components/WhiteVideo';
 
 const useStyles = makeStyles((theme) => ({
     sticker: {
@@ -233,7 +234,8 @@ const WhiteHouse =() => {
                                         </div>
                                     </div> */}
 
-                                    <WhiteHouseVideo/>
+                                    {/* <WhiteHouseVideo/> */}
+                                    <WhiteVideo/>
 
 
                                   

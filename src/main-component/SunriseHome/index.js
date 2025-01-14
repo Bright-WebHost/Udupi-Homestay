@@ -33,6 +33,7 @@ import Sunrisetop from '../../images/allimg/top/Sunrisetop.webp'
 
 import { makeStyles } from "@material-ui/core";
 import BannerPage from '../../components/BannerPage';
+import SunriseHomeVideo from '../../components/SunriseHomeVideo';
 
 const useStyles = makeStyles((theme) => ({
     sticker: {
@@ -251,7 +252,8 @@ const SunriseHome =() => {
                                     {/* <BlogList/> */}
                                     {/* <RelatedProject/>
                                     <Discuss/> */}
-                                       <BlogList/>
+                                       {/* <BlogList/> */}
+                                       <SunriseHomeVideo/>
                                 </div>
                             </div>
                         </div>
