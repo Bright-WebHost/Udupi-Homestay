@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import blogs from '../../api/PopUp';
-import videoFile from '../../images/video/Garden.mp4'; // Ensure the video file is in the correct path.
+import videoFile from '../../images/video/Cottage.mp4'; // Ensure the video file is in the correct path.
 
 const CottageHouseVideos = (props) => {
     const ClickHandler = () => {

@@ -34,6 +34,7 @@ import Cottage from '../../images/allimg/top/Cottage.webp'
 import { makeStyles } from "@material-ui/core";
 import CottageHouseVideo from '../../components/CottageHouseVideo';
 import BannerPage from '../../components/BannerPage';
+import CottageHouseVideos from '../../components/CottageHouseVideos';
 const useStyles = makeStyles((theme) => ({
     sticker: {
       position: "absolute",
@@ -199,8 +200,8 @@ const CottageHouse =() => {
                                     {/* <CottageHousebook/> */}
                                     <BannerPage/>
                                     </div>
-                                    <CottageHouseVideo/>
-                                    {/* <CottageHouseVideos/> */}
+                                    {/* <CottageHouseVideo/> */}
+                                    <CottageHouseVideos/>
                                     {/* <div className="wpo-project-single-item">
                                         <div className="wpo-project-single-title">
                                             <h3>Our approach</h3>

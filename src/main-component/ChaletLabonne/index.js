@@ -34,6 +34,7 @@ import Chalettop from '../../images/allimg/top/Chalettop.webp'
 
 import { makeStyles } from "@material-ui/core";
 import BannerPage from '../../components/BannerPage';
+import ChaletLabonneVideo from '../../components/ChaletLabonneVideo';
 
 const useStyles = makeStyles((theme) => ({
     sticker: {
@@ -323,7 +324,8 @@ const ChaletLabonne =() => {
                                     {/* <RelatedProject/>
                                     <Discuss/> */}
 
-        <BlogList/>
+        {/* <BlogList/> */}
+        <ChaletLabonneVideo/>
                                 </div>
                             </div>
                         </div>
