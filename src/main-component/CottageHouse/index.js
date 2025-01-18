@@ -200,6 +200,7 @@ const CottageHouse =() => {
                                     <BannerPage/>
                                     </div>
                                     <CottageHouseVideo/>
+                                    {/* <CottageHouseVideos/> */}
                                     {/* <div className="wpo-project-single-item">
                                         <div className="wpo-project-single-title">
                                             <h3>Our approach</h3>

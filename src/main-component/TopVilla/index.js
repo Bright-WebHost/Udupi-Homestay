@@ -34,6 +34,7 @@ import img1 from '../../images/allimg/HomeSlider/hilltop.webp'
 import top from '../../images/allimg/top/Hilltop.webp'
 import { makeStyles } from "@material-ui/core";
 import BannerPage from '../../components/BannerPage';
+import TopVillaVideo from '../../components/TopVillaVideo';
 
 const useStyles = makeStyles((theme) => ({
     sticker: {
@@ -252,7 +253,8 @@ const TopVilla =() => {
                                     {/* <RelatedProject/>
                                     <Discuss/> */}
 
-<BlogList/>
+{/* <BlogList/> */}
+<TopVillaVideo/>
                                 </div>
                             </div>
                         </div>
