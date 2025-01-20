@@ -40,6 +40,7 @@ import TopVilla from '../TopVilla';
 import SunriseHome from '../SunriseHome';
 import ChaletLabonne from '../ChaletLabonne';
 import ViewPoint from '../ViewPoint';
+import GardenVillaCopy from '../GardenVillaCopy';
 
 
 const AllRoute = () => {
@@ -56,6 +57,7 @@ const AllRoute = () => {
           <Route path='/' element={<Homepage4/>} />
           <Route path='/Catering' element={<Catering/>} />
           <Route path='/GardenVilla' element={<GardenVilla/>} />
+          <Route path='/garden-villa' element={<GardenVillaCopy/>} />
           <Route path='/CottageHouse' element={<CottageHouse/>} />
           <Route path='/TopVilla' element={<TopVilla/>} />
           <Route path='/SunriseHome' element={<SunriseHome/>} />
