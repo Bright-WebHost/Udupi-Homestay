@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.da89935e.css",
-    "main.js": "/static/js/main.098c7427.js",
+    "main.js": "/static/js/main.08321df1.js",
     "static/js/787.884f7618.chunk.js": "/static/js/787.884f7618.chunk.js",
-    "static/media/Sunrise.mp4": "/static/media/Sunrise.29ea1354e560437232d4.mp4",
-    "static/media/Whitevideo.mp4": "/static/media/Whitevideo.3e6e79f434f1ad6bae56.mp4",
+    "static/media/Chalet La.mp4": "/static/media/Chalet La.d704af9c5f84298adfb6.mp4",
+    "static/media/Cottage.mp4": "/static/media/Cottage.5beea3f4d9541e73db8d.mp4",
     "static/media/Hill Top.mp4": "/static/media/Hill Top.87e18f2973e298ef7cd2.mp4",
     "static/media/Garden.mp4": "/static/media/Garden.974e3bff7cbd230cbf93.mp4",
     "static/media/Caterings.webp": "/static/media/Caterings.4c4a78bdf051e6c40bff.webp",
@@ -108,11 +108,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.da89935e.css.map": "/static/css/main.da89935e.css.map",
-    "main.098c7427.js.map": "/static/js/main.098c7427.js.map",
+    "main.08321df1.js.map": "/static/js/main.08321df1.js.map",
     "787.884f7618.chunk.js.map": "/static/js/787.884f7618.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da89935e.css",
-    "static/js/main.098c7427.js"
+    "static/js/main.08321df1.js"
   ]
 }
