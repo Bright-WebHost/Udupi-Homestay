@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import blogs from '../../api/PopUp';
 
-const SunriseHomeVideo = (props) => {
+const ViewVideo = (props) => {
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     };
@@ -19,7 +19,7 @@ const SunriseHomeVideo = (props) => {
                                     <iframe
                                         width="100%"
                                         height="100%"
-                                        src={`https://www.youtube.com/embed/5PS5Km94Jhk?autoplay=1&mute=1&modestbranding=1&showinfo=0&controls=1&rel=0`}
+                                        src={`https://www.youtube.com/embed/i9-NBYHKbSQ?autoplay=1&mute=1&modestbranding=1&showinfo=0&controls=1&rel=0`}
                                         title="YouTube video player"
                                         frameBorder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture"
@@ -59,4 +59,4 @@ const SunriseHomeVideo = (props) => {
     );
 };
 
-export default SunriseHomeVideo;
+export default ViewVideo;

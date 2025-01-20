@@ -34,6 +34,7 @@ import i24 from '../../images/icons/i24.png'
 import Viewtop from '../../images/allimg/top/Viewtop.webp'
 import { makeStyles } from "@material-ui/core";
 import BannerPage from '../../components/BannerPage';
+import ViewVideo from '../../components/ViewVideo';
 const useStyles = makeStyles((theme) => ({
     sticker: {
       position: "absolute",
@@ -252,7 +253,8 @@ const ViewPoint  =() => {
                                     {/* <BlogList/> */}
                                     {/* <RelatedProject/>
                                     <Discuss/> */}
-                         <BlogList/>
+                         <ViewVideo/>
+                         {/* <BlogList/> */}
                                 </div>
                             </div>
                         </div>
