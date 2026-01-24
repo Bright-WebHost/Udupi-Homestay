@@ -26,6 +26,17 @@ const HomePage4 =() => {
             <Navbar2 Logo={Logo} hclass={'wpo-header-style-3'}/>
            {/* <Whatsapp/> */}
             <Hero4/>
+            <h1
+  style={{
+    position: 'absolute',
+    left: '-9999px',
+    width: '1px',
+    height: '1px',
+    overflow: 'hidden'
+  }}
+>
+  Homestays in Udupi – Whitehouse, Garden Villa, Cottage House & More
+</h1>
 
 
            {/* book */}

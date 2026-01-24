@@ -40,7 +40,10 @@ import TopVilla from '../TopVilla';
 import SunriseHome from '../SunriseHome';
 import ChaletLabonne from '../ChaletLabonne';
 import ViewPoint from '../ViewPoint';
-import GardenVillaCopy from '../GardenVillaCopy';
+import HomestaysInUdupi from '../HomestaysInUdupi';
+import HomestaysNearMalpeBeach from '../HomestaysNearMalpeBeach';
+import FamilyHomestaysInUdupi from '../FamilyHomestaysInUdupi';
+import BudgetHomestaysInUdupi from '../BudgetHomestaysInUdupi';
 
 
 const AllRoute = () => {
@@ -57,7 +60,7 @@ const AllRoute = () => {
           <Route path='/' element={<Homepage4/>} />
           <Route path='/Catering' element={<Catering/>} />
           <Route path='/GardenVilla' element={<GardenVilla/>} />
-          <Route path='/garden-villa' element={<GardenVillaCopy/>} />
+          {/* <Route path='/garden-villa' element={<GardenVillaCopy/>} /> */}
           <Route path='/CottageHouse' element={<CottageHouse/>} />
           <Route path='/TopVilla' element={<TopVilla/>} />
           <Route path='/SunriseHome' element={<SunriseHome/>} />
@@ -91,6 +94,11 @@ const AllRoute = () => {
           <Route path='login' element={<LoginPage/>} />
           <Route path='register' element={<SignUpPage/>} />
           <Route path='forgot-password' element={<ForgotPassword/>} />
+
+          <Route path="/homestays-in-udupi" element={<HomestaysInUdupi />} />
+<Route path="/homestays-near-malpe-beach" element={<HomestaysNearMalpeBeach />} />
+<Route path="/family-homestays-in-udupi" element={<FamilyHomestaysInUdupi />} />
+<Route path="/budget-homestays-in-udupi" element={<BudgetHomestaysInUdupi />} />
         </Routes>
       </BrowserRouter>
     </div>

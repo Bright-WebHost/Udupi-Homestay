@@ -33,7 +33,7 @@ import { makeStyles } from "@material-ui/core";
 import GardenVillaVideo from '../../components/GardenVillaVideo';
 import BannerPage from '../../components/BannerPage';
 import GardenVillaVideos from '../../components/GardenVillaVideos';
-
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -131,8 +131,60 @@ const GardenVilla =() => {
   
     return(
         <Fragment>
+            <Helmet>
+  {/* ✅ SEO Title */}
+  <title>Garden Villa Homestay in Udupi | Near Malpe Beach</title>
+
+  {/* ✅ Meta Description */}
+  <meta
+    name="description"
+    content="Garden Villa Homestay in Udupi offers a calm and comfortable stay near Malpe Beach. Ideal for families and groups looking for a peaceful homestay experience in Udupi."
+  />
+
+  {/* ✅ Schema: LodgingBusiness */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Garden Villa Homestay",
+      "url": "https://udupistay.com/GardenVilla",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Udupi",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Peaceful Environment"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Family Friendly"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Parking"
+        }
+      ]
+    })}
+  </script>
+</Helmet>
             <Navbar Logo={Logo}/>
             <PageTitle pageTitle={'GARDEN VILLA'} src={green}/> 
+            <h1
+  style={{
+    position: 'absolute',
+    left: '-9999px',
+    top: 'auto',
+    width: '1px',
+    height: '1px',
+    overflow: 'hidden',
+  }}
+>
+  Garden Villa Homestay in Udupi
+</h1>
            
             <div className="wpo-project-single-area section-padding">
                 <div className="container">

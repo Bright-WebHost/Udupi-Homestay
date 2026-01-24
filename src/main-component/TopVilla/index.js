@@ -35,6 +35,7 @@ import top from '../../images/allimg/top/Hilltop.webp'
 import { makeStyles } from "@material-ui/core";
 import BannerPage from '../../components/BannerPage';
 import TopVillaVideo from '../../components/TopVillaVideo';
+import { Helmet } from "react-helmet-async";
 
 const useStyles = makeStyles((theme) => ({
     sticker: {
@@ -126,8 +127,57 @@ const TopVilla =() => {
 
     return(
         <Fragment>
+            <Helmet>
+  {/* ✅ SEO Title */}
+  <title>Top Villa Homestay in Udupi | Premium Stay for Groups & Families</title>
+
+  {/* ✅ Meta Description */}
+  <meta
+    name="description"
+    content="Top Villa Homestay in Udupi offers a spacious and premium stay experience, ideal for families and large groups looking for comfort, privacy, and relaxation."
+  />
+
+  {/* ✅ Schema: LodgingBusiness */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Top Villa Homestay",
+      "url": "https://udupistay.com/TopVilla",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Udupi",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Premium Villa Stay"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Ideal for Groups and Families"
+        }
+      ]
+    })}
+  </script>
+</Helmet>
+
             <Navbar Logo={Logo}/>
             <PageTitle pageTitle={'HILL TOP VILLA'} src={top}/> 
+            <h1
+  style={{
+    position: 'absolute',
+    left: '-9999px',
+    top: 'auto',
+    width: '1px',
+    height: '1px',
+    overflow: 'hidden',
+  }}
+>
+  Top Villa Homestay in Udupi
+</h1>
            
             <div className="wpo-project-single-area section-padding">
                 <div className="container">

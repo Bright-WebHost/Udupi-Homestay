@@ -30,6 +30,8 @@ import ViewPointImg from '../../components/ViewPointImg';
 import ChaletLabonneImg from '../../components/ChaletLabonneImg';
 import img1 from '../../images/allimg/chalet/1.webp'
 import Chalettop from '../../images/allimg/top/Chalettop.webp'
+import { Helmet } from "react-helmet-async";
+
 
 
 import { makeStyles } from "@material-ui/core";
@@ -125,8 +127,56 @@ const ChaletLabonne =() => {
 
     return(
         <Fragment>
+            <Helmet>
+  {/* ✅ SEO Title */}
+  <title>Chalet La Bonne Vie Homestay in Udupi | Scenic & Peaceful Stay</title>
+
+  {/* ✅ Meta Description */}
+  <meta
+    name="description"
+    content="Chalet La Bonne Vie Homestay in Udupi offers a scenic and peaceful stay experience, ideal for families and groups seeking comfort, privacy, and relaxation."
+  />
+
+  {/* ✅ Schema: LodgingBusiness */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Chalet La Bonne Vie Homestay",
+      "url": "https://udupistay.com/ChaletLabonne",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Udupi",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Scenic Location"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Peaceful Stay"
+        }
+      ]
+    })}
+  </script>
+</Helmet>
             <Navbar Logo={Logo}/>
             <PageTitle pageTitle={'Chalet La Bonne Vie'} src={Chalettop}/> 
+            <h1
+  style={{
+    position: 'absolute',
+    left: '-9999px',
+    top: 'auto',
+    width: '1px',
+    height: '1px',
+    overflow: 'hidden',
+  }}
+>
+  Chalet La Bonne Vie Homestay in Udupi
+</h1>
            
             <div className="wpo-project-single-area section-padding">
                 <div className="container">

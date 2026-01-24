@@ -30,6 +30,7 @@ import Kitchen from '../../images/icons/Kitchen.png'
 import i24 from '../../images/icons/i24.png'
 import img1 from '../../images/allimg/sunrise/1.webp';
 import Sunrisetop from '../../images/allimg/top/Sunrisetop.webp'
+import { Helmet } from "react-helmet-async";
 
 import { makeStyles } from "@material-ui/core";
 import BannerPage from '../../components/BannerPage';
@@ -125,8 +126,57 @@ const SunriseHome =() => {
 
     return(
         <Fragment>
+            <Helmet>
+  {/* ✅ SEO Title */}
+  <title>Sunrise Home Homestay in Udupi | Peaceful Family Stay</title>
+
+  {/* ✅ Meta Description */}
+  <meta
+    name="description"
+    content="Sunrise Home Homestay in Udupi offers a peaceful and comfortable stay ideal for families and groups, located near major attractions and calm surroundings."
+  />
+
+  {/* ✅ Schema: LodgingBusiness */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Sunrise Home Homestay",
+      "url": "https://udupistay.com/SunriseHome",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Udupi",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Peaceful Stay"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Family Friendly"
+        }
+      ]
+    })}
+  </script>
+</Helmet>
+
             <Navbar Logo={Logo}/>
-            <PageTitle pageTitle={'SUNRISE HOME'} src={Sunrisetop}/> 
+            <PageTitle pageTitle={'SUNRISE HOME'} src={Sunrisetop}/>
+            <h1
+  style={{
+    position: 'absolute',
+    left: '-9999px',
+    top: 'auto',
+    width: '1px',
+    height: '1px',
+    overflow: 'hidden',
+  }}
+>
+  Sunrise Home Homestay in Udupi
+</h1> 
            
             <div className="wpo-project-single-area section-padding">
                 <div className="container">

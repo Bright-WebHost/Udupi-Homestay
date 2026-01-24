@@ -7,23 +7,25 @@ import './css/themify-icons.css';
 import './css/flaticon.css';
 import './sass/style.scss';
 
-
 import { PersistGate } from "redux-persist/integration/react";
 import { store, persistor } from "./store/index";
 import { Provider } from "react-redux";
 import Whatsapp from './components/Whatsapp';
 
+// ✅ ADD THIS
+import { HelmetProvider } from "react-helmet-async";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Provider store={store}>
-        <PersistGate loading={null} persistor={persistor}>
-            <App />
-            <Whatsapp/>
-        </PersistGate>
-    </Provider>
+  <HelmetProvider>
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <App />
+        <Whatsapp />
+      </PersistGate>
+    </Provider>
+  </HelmetProvider>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// Performance monitoring
 reportWebVitals();

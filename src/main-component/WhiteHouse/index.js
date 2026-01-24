@@ -37,6 +37,7 @@ import { makeStyles } from "@material-ui/core";
 import WhiteHouseVideo from '../../components/WhiteHouseVideo';
 import BannerPage from '../../components/BannerPage';
 import WhiteVideo from '../../components/WhiteVideo';
+import { Helmet } from 'react-helmet-async';
 
 const useStyles = makeStyles((theme) => ({
     sticker: {
@@ -131,8 +132,61 @@ const WhiteHouse =() => {
     
     return(
         <Fragment>
+            <Helmet>
+  {/* ✅ SEO Title */}
+  <title>White House Homestay in Udupi | Near Malpe Beach</title>
+
+  {/* ✅ Meta Description */}
+  <meta
+    name="description"
+    content="White House Homestay in Udupi offers spacious accommodation near Malpe Beach. Ideal for families and group stays with direct booking."
+  />
+
+  {/* ✅ Schema: LodgingBusiness */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "White House Homestay",
+      "url": "https://udupistay.com/Whitehouse",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Udupi",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free Wi-Fi"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Parking"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Family Friendly"
+        }
+      ]
+    })}
+  </script>
+</Helmet>
+
             <Navbar Logo={Logo}/>
             <PageTitle pageTitle={'WHITE HOUSE'} src={top} /> 
+            <h1
+  style={{
+    position: 'absolute',
+    left: '-9999px',
+    top: 'auto',
+    width: '1px',
+    height: '1px',
+    overflow: 'hidden',
+  }}
+>
+  Whitehouse Homestay in Udupi
+</h1>
            
             <div className="wpo-project-single-area section-padding">
                 <div className="container">

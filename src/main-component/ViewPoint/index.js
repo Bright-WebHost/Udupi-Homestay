@@ -35,6 +35,7 @@ import Viewtop from '../../images/allimg/top/Viewtop.webp'
 import { makeStyles } from "@material-ui/core";
 import BannerPage from '../../components/BannerPage';
 import ViewVideo from '../../components/ViewVideo';
+import { Helmet } from "react-helmet-async";
 const useStyles = makeStyles((theme) => ({
     sticker: {
       position: "absolute",
@@ -125,9 +126,57 @@ const ViewPoint  =() => {
 
     return(
         <Fragment>
+            <Helmet>
+  {/* ✅ SEO Title */}
+  <title>ViewPoint Oasis Homestay in Udupi | Scenic Stay with Views</title>
+
+  {/* ✅ Meta Description */}
+  <meta
+    name="description"
+    content="ViewPoint Oasis Homestay in Udupi offers a scenic and relaxing stay with beautiful surroundings, ideal for families and groups looking for comfort, privacy, and peaceful views."
+  />
+
+  {/* ✅ Schema: LodgingBusiness */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "ViewPoint Oasis Homestay",
+      "url": "https://udupistay.com/ViewPoint",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Udupi",
+        "addressRegion": "Karnataka",
+        "addressCountry": "IN"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Scenic Views"
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Peaceful Environment"
+        }
+      ]
+    })}
+  </script>
+</Helmet>
+
             <Navbar Logo={Logo}/>
             <PageTitle pageTitle={'Viewpoint Oasis'} src={img1}/> 
-           
+           <h1
+  style={{
+    position: 'absolute',
+    left: '-9999px',
+    top: 'auto',
+    width: '1px',
+    height: '1px',
+    overflow: 'hidden',
+  }}
+>
+  ViewPoint Oasis Homestay in Udupi
+</h1>
             <div className="wpo-project-single-area section-padding">
                 <div className="container">
                     <div className="row justify-content-center">
