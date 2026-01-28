@@ -128,40 +128,13 @@ const ChaletLabonne =() => {
     return(
         <Fragment>
             <Helmet>
-  {/* ✅ SEO Title */}
-  <title>Chalet La Bonne Vie Homestay in Udupi | Scenic & Peaceful Stay</title>
 
-  {/* ✅ Meta Description */}
+  <title>Chalet La Bonne Vie Homestay in Udupi | Scenic & Peaceful Stay</title>
   <meta
     name="description"
     content="Chalet La Bonne Vie Homestay in Udupi offers a scenic and peaceful stay experience, ideal for families and groups seeking comfort, privacy, and relaxation."
   />
-
-  {/* ✅ Schema: LodgingBusiness */}
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LodgingBusiness",
-      "name": "Chalet La Bonne Vie Homestay",
-      "url": "https://udupistay.com/ChaletLabonne",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Udupi",
-        "addressRegion": "Karnataka",
-        "addressCountry": "IN"
-      },
-      "amenityFeature": [
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Scenic Location"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Peaceful Stay"
-        }
-      ]
-    })}
-  </script>
+  
 </Helmet>
             <Navbar Logo={Logo}/>
             <PageTitle pageTitle={'Chalet La Bonne Vie'} src={Chalettop}/> 

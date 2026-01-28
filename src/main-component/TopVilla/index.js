@@ -128,40 +128,15 @@ const TopVilla =() => {
     return(
         <Fragment>
             <Helmet>
-  {/* ✅ SEO Title */}
+  
   <title>Top Villa Homestay in Udupi | Premium Stay for Groups & Families</title>
 
-  {/* ✅ Meta Description */}
+ 
   <meta
     name="description"
     content="Top Villa Homestay in Udupi offers a spacious and premium stay experience, ideal for families and large groups looking for comfort, privacy, and relaxation."
   />
 
-  {/* ✅ Schema: LodgingBusiness */}
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LodgingBusiness",
-      "name": "Top Villa Homestay",
-      "url": "https://udupistay.com/TopVilla",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Udupi",
-        "addressRegion": "Karnataka",
-        "addressCountry": "IN"
-      },
-      "amenityFeature": [
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Premium Villa Stay"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Ideal for Groups and Families"
-        }
-      ]
-    })}
-  </script>
 </Helmet>
 
             <Navbar Logo={Logo}/>

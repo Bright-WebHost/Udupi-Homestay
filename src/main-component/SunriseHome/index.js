@@ -127,40 +127,13 @@ const SunriseHome =() => {
     return(
         <Fragment>
             <Helmet>
-  {/* ✅ SEO Title */}
-  <title>Sunrise Home Homestay in Udupi | Peaceful Family Stay</title>
 
-  {/* ✅ Meta Description */}
+  <title>Sunrise Home Homestay in Udupi | Peaceful Family Stay</title>
   <meta
     name="description"
     content="Sunrise Home Homestay in Udupi offers a peaceful and comfortable stay ideal for families and groups, located near major attractions and calm surroundings."
   />
 
-  {/* ✅ Schema: LodgingBusiness */}
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LodgingBusiness",
-      "name": "Sunrise Home Homestay",
-      "url": "https://udupistay.com/SunriseHome",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Udupi",
-        "addressRegion": "Karnataka",
-        "addressCountry": "IN"
-      },
-      "amenityFeature": [
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Peaceful Stay"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Family Friendly"
-        }
-      ]
-    })}
-  </script>
 </Helmet>
 
             <Navbar Logo={Logo}/>

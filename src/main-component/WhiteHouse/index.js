@@ -133,44 +133,16 @@ const WhiteHouse =() => {
     return(
         <Fragment>
             <Helmet>
-  {/* ✅ SEO Title */}
+ 
   <title>White House Homestay in Udupi | Near Malpe Beach</title>
 
-  {/* ✅ Meta Description */}
+  
   <meta
     name="description"
     content="White House Homestay in Udupi offers spacious accommodation near Malpe Beach. Ideal for families and group stays with direct booking."
   />
 
-  {/* ✅ Schema: LodgingBusiness */}
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LodgingBusiness",
-      "name": "White House Homestay",
-      "url": "https://udupistay.com/Whitehouse",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Udupi",
-        "addressRegion": "Karnataka",
-        "addressCountry": "IN"
-      },
-      "amenityFeature": [
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Free Wi-Fi"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Parking"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Family Friendly"
-        }
-      ]
-    })}
-  </script>
+
 </Helmet>
 
             <Navbar Logo={Logo}/>

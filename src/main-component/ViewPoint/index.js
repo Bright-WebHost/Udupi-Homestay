@@ -127,40 +127,15 @@ const ViewPoint  =() => {
     return(
         <Fragment>
             <Helmet>
-  {/* ✅ SEO Title */}
+ 
   <title>ViewPoint Oasis Homestay in Udupi | Scenic Stay with Views</title>
 
-  {/* ✅ Meta Description */}
+  
   <meta
     name="description"
     content="ViewPoint Oasis Homestay in Udupi offers a scenic and relaxing stay with beautiful surroundings, ideal for families and groups looking for comfort, privacy, and peaceful views."
   />
 
-  {/* ✅ Schema: LodgingBusiness */}
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LodgingBusiness",
-      "name": "ViewPoint Oasis Homestay",
-      "url": "https://udupistay.com/ViewPoint",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Udupi",
-        "addressRegion": "Karnataka",
-        "addressCountry": "IN"
-      },
-      "amenityFeature": [
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Scenic Views"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Peaceful Environment"
-        }
-      ]
-    })}
-  </script>
 </Helmet>
 
             <Navbar Logo={Logo}/>

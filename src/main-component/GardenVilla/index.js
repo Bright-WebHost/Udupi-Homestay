@@ -132,44 +132,14 @@ const GardenVilla =() => {
     return(
         <Fragment>
             <Helmet>
-  {/* ✅ SEO Title */}
+  
   <title>Garden Villa Homestay in Udupi | Near Malpe Beach</title>
 
-  {/* ✅ Meta Description */}
   <meta
     name="description"
     content="Garden Villa Homestay in Udupi offers a calm and comfortable stay near Malpe Beach. Ideal for families and groups looking for a peaceful homestay experience in Udupi."
   />
 
-  {/* ✅ Schema: LodgingBusiness */}
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LodgingBusiness",
-      "name": "Garden Villa Homestay",
-      "url": "https://udupistay.com/GardenVilla",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Udupi",
-        "addressRegion": "Karnataka",
-        "addressCountry": "IN"
-      },
-      "amenityFeature": [
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Peaceful Environment"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Family Friendly"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Parking"
-        }
-      ]
-    })}
-  </script>
 </Helmet>
             <Navbar Logo={Logo}/>
             <PageTitle pageTitle={'GARDEN VILLA'} src={green}/> 

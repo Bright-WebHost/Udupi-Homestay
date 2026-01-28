@@ -133,40 +133,13 @@ const CottageHouse =() => {
     return(
         <Fragment>
             <Helmet>
-  {/* ✅ SEO Title */}
-  <title>Cottage House Homestay in Udupi | Peaceful Stay Near Nature</title>
 
-  {/* ✅ Meta Description */}
+  <title>Cottage House Homestay in Udupi | Peaceful Stay Near Nature</title>
   <meta
     name="description"
     content="Cottage House Homestay in Udupi offers a quiet and comfortable stay ideal for families and groups looking for a peaceful homestay experience close to nature and major attractions."
   />
 
-  {/* ✅ Schema: LodgingBusiness */}
-  <script type="application/ld+json">
-    {JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LodgingBusiness",
-      "name": "Cottage House Homestay",
-      "url": "https://udupistay.com/CottageHouse",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Udupi",
-        "addressRegion": "Karnataka",
-        "addressCountry": "IN"
-      },
-      "amenityFeature": [
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Peaceful Environment"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Family Friendly"
-        }
-      ]
-    })}
-  </script>
 </Helmet>
 
             <Navbar Logo={Logo}/>
